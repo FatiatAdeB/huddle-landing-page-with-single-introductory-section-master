@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:ital@0;1&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+   background-color: hsl(257, 40%, 49%);
+  margin: 70px;
+/* font-family: 'Poppins', sans-serif; */
+
+font-family: 'Open Sans', sans-serif;
+
+}
+ .writings {
+    margin: 30px;
+    color: white;
+ }
+main {
+    display: flex;
+    
+}
+.huddle {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+button {
+    padding: 10px;
+    border-radius: 50px;
+    width: 20%;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    box-shadow: hsl(229, 6%, 66%) 1px 2px 7px 2px;
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.icons {
+    float: right;
+    
+    
+}
+.twit {
+    border: white solid 1px;
+    border-radius: 50px;
+    color:hsl(300, 69%, 71%) ;
+    margin-top: 200px;
+}
+.face {
+    border: white solid 1px;
+    border-radius: 50px;
+}
+ .insta {
+    border: white solid 1px;
+    border-radius: 50px;
+ }
+@media (max-width: 1245px) {
+    main {
+        flex-direction: column;
+    }
+}
